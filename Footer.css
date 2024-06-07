@@ -1,0 +1,37 @@
+footer {
+    border-top: 1px solid var(--colorBorder);
+    background-color: var(--colorBackgroundElement);
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+}
+
+.footer_parent {
+    position: relative;
+}
+
+footer>ul {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+footer>ul>li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer>p {
+    align-self: center;
+    margin: 0;
+    margin-right: 10px;
+}

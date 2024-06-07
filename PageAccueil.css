@@ -1,0 +1,67 @@
+header>nav>ul>li:nth-child(1)>a {
+    background-color: var(--colorLinkHeaderHover);
+}
+
+main {
+    flex-direction: column;
+}
+
+.titrePortefolio {
+    align-self: center;
+    font-size: 1.2cm;
+}
+
+div {
+    align-self: center;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+div>img {
+    box-sizing: border-box;
+    border: 1px solid var(--colorBorder);
+    width: 240px;
+    height: 285px;
+    object-fit: cover;
+    margin: 3px;
+    align-self: center;
+}
+
+section {
+    box-sizing: border-box;
+    background-color: var(--colorP);
+    border-radius: 20px;
+    border: 1px solid var(--colorBorder);
+    min-height: 285px;
+    width: 45%;
+    min-width: 235px;
+    padding: 7px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+div>section>p {
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-indent: 30px;
+}
+
+section>a {
+    margin-top: auto;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.imgGauche {
+    flex-wrap: wrap-reverse;
+}
